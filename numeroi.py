@@ -6,7 +6,7 @@
 #Ingrese numero: 241
 #142
 
-numero = input("Enter a three digit number: ")
+numero = (input("Enter a three digit number: "))
 
 if len(numero) == 3 and numero.isdigit():
 
