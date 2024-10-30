@@ -4,7 +4,7 @@
 #Perimetro: 31.4
 #Área: 78.5
 import math
-radius = int(input("Enter the radius of a circle "))
+radius = float(input("Enter the radius of a circle "))
 perimeter = 2 * math.pi * radius
 area = math.pi * radius**2
 print(f""" The perimeter of the circle is: {perimeter} and the area is {area}""")
