@@ -19,7 +19,7 @@ C1 = int(input("Enter the first exam score: "))
 C2 = int(input("Enter the second exam score: "))
 NL = int(input("Enter the laboratory score: "))
 
-NC = (59.5 - 0.3 * NL) / 0.7 # Promedio de certámenes
+NC = (59.5 - 0.3 * NL) / 0.7 # Promedio de certámenes 
 
 C3 = 3 * NC - (C1 + C2) + 1 
 RC3 = round(C3)

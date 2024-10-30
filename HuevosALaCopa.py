@@ -17,4 +17,4 @@ segundos = resultado * resulta2
 minutos = round(segundos/60)
 
 print(f"El tiempo maximo para prepararlo a la copa {round(segundos)} segundos")
-#print(f"El tiempo maximo para prepararlo a la copa {minutos} minutos")
+#print(f"El tiempo maximo para prepararlo a la copa {minutos} minutos") 

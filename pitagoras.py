@@ -4,7 +4,7 @@
 
 #Ingrese cateto b: 5
 
-#La hipotenusa es 8.6023252670426267
+#La hipotenusa es 8.6023252670426267 
 
 CatetoA = float(input("Escriba la longitud del primer cateto: "))
 

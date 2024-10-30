@@ -2,7 +2,7 @@
 
 #Ingrese el radio: 5
 #Perimetro: 31.4
-#Área: 78.5
+#Área: 78.5 
 import math
 radius = float(input("Enter the radius of a circle "))
 perimeter = 2 * math.pi * radius

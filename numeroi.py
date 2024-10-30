@@ -3,7 +3,7 @@
 
 #Ingrese numero: 345
 #543
-#Ingrese numero: 241
+#Ingrese numero: 241 
 #142
 
 numero = (input("Enter a three digit number: "))

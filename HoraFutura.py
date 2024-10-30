@@ -5,7 +5,7 @@
 #Cantidad de horas: 5
 #En 5 horas, el reloj marcara las 8
 #Hora actual: 11
-#Cantidad de horas: 43
+#Cantidad de horas: 43 
 #En 43 horas, el reloj marcara las 6
 
 t= int(input("Enter the actual time: "))

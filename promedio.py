@@ -4,7 +4,7 @@
 #Segunda nota: 71
 #Tercera nota: 46
 #Cuarta nota: 87
-#El promedio es: 64.75
+#El promedio es: 64.75 
 
 FirstNote = float(input("Enter here your first note: "))
 SecondNote = float(input("Enter here your second note: "))
