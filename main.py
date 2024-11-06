@@ -1,27 +1,21 @@
-#Qué nota necesito
-#Un alumno desea saber que nota necesita en el tercer certamen para aprobar un ramo.
 
-#El promedio del ramo se calcula con la siguiente formula.
+import math 
+TO = float(input("Temperatura original del huevo\n")) #temperatura original del huevo
+TW = 100 #temperatura del agua para alcanzar la ebullicion
+TY = 70 #temperatura de la yema para coagularse 
+M = 67 #masa del huevo 47 = peque;o y 67 grande
+P = 1.038 #constate de la formula
+C = 3.7 #constante de la formula
+K = 5.4 * math.pow(10, -3) #formula de conductividad termica
 
-#NC=(C1+C2+C3)/3
-#NF=NC⋅0.7+NL⋅0.3
+dividendo = math.pow(M, (2/3)) * (C * (math.pow(P, (1/3))))
+divisor = (K * math.pow(math.pi, 2)) * math.pow((4*math.pi)/3, (2/3))
+resultado = dividendo / divisor
 
-#Donde NC es el promedio de certámenes, NL el promedio de laboratorio y NF la nota final.
+resulta2 = math.log(0.76 * (TO - TW) / (TY - TW))
 
-#Escriba un programa que pregunte al usuario las notas de los dos primeros certamen y la nota de laboratorio, y muestre la nota que necesita el alumno para aprobar el ramo con nota final 60.
+segundos = resultado * resulta2
+minutos = round(segundos/60)
 
-#Ingrese nota certamen 1: 45
-#Ingrese nota certamen 2: 55
-#Ingrese nota laboratorio: 65
-#Necesita nota 72 en el certamen 3
-
-C1 = int(input("Enter the first exam score: "))
-C2 = int(input("Enter the second exam score: "))
-NL = int(input("Enter the laboratory score: "))
-
-NC = (59.5 - 0.3 * NL) / 0.7 # Promedio de certámenes 
-
-C3 = 3 * NC - (C1 + C2) + 1 
-RC3 = round(C3)
-print(f"You need a score of {RC3} to achieve a final score of 60.")
-
+print(f"El tiempo maximo para prepararlo a la copa {round(segundos)} segundos")
+#print(f"El tiempo maximo para prepararlo a la copa {minutos} minutos") 
