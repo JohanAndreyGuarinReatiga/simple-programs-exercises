@@ -1,18 +1,17 @@
 
-#Número invertido
-#Escriba un programa que pida al usuario un entero de tres dígitos, y entregue el número con los dígitos en orden inverso:
+ 
+ #Escriba un programa que reciba como entrada las longitudes de los dos catetos a y b de un triángulo rectángulo, y que entregue como salida el largo de la hipotenusa c del triangulo, dado por el teorema de Pitágoras: c2=a2+b2.
 
-#Ingrese numero: 345
-#543
-#Ingrese numero: 241 
-#142
+#Ingrese cateto a: 7
 
-numero = (input("Enter a three digit number: "))
+#Ingrese cateto b: 5
 
-if len(numero) == 3 and numero.isdigit():
+#La hipotenusa es 8.6023252670426267 
 
-    InvertedNumber = numero[::-1]
-    print(InvertedNumber)
-else:
-    print("Please enter a valid three digit number.")
-    
+CatetoA = float(input("Escriba la longitud del primer cateto: "))
+
+CatetoB = float(input("Escriba la longitud del segundo cateto: "))
+
+Hipotenusa = CatetoA **2 + CatetoB **2
+
+print(Hipotenusa**0.5)
