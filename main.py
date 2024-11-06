@@ -1,11 +1,18 @@
+#Escriba un programa que calcule el promedio de 4 notas ingresadas por el usuario:
 
-#Escriba un programa que reciba como entrada el radio de un círculo y entregue como salida su perímetro y su área:
+#Primera nota: 55
+#Segunda nota: 71
+#Tercera nota: 46
+#Cuarta nota: 87
+#El promedio es: 64.75 
 
-#Ingrese el radio: 5
-#Perimetro: 31.4
-#Área: 78.5 
-import math
-radius = float(input("Enter the radius of a circle "))
-perimeter = 2 * math.pi * radius
-area = math.pi * radius**2
-print(f""" The perimeter of the circle is: {perimeter} and the area is {area}""")
+FirstNote = float(input("Enter here your first note: "))
+SecondNote = float(input("Enter here your second note: "))
+ThirdNote = float(input("Enter here your fourth note: "))
+FourthNote = float(input("Enter here your fourth note: "))
+average = float(FirstNote + SecondNote + ThirdNote + FourthNote) / 4
+
+print(f""" 
+"The average of the four given notes is: {average}"
+""")
+
