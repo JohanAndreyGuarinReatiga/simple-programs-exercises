@@ -1,18 +1,13 @@
-#Escriba un programa que calcule el promedio de 4 notas ingresadas por el usuario:
+#Conversión de unidades de longitud
+#Escriba un programa que convierta de centímetros a pulgadas. Una pulgada es igual a 2.54 centímetros.
 
-#Primera nota: 55
-#Segunda nota: 71
-#Tercera nota: 46
-#Cuarta nota: 87
-#El promedio es: 64.75 
+#Ingrese longitud: 45
+#45 cm = 17.7165 in
+#Ingrese longitud: 13 
+#13 cm = 5.1181 in
 
-FirstNote = float(input("Enter here your first note: "))
-SecondNote = float(input("Enter here your second note: "))
-ThirdNote = float(input("Enter here your fourth note: "))
-FourthNote = float(input("Enter here your fourth note: "))
-average = float(FirstNote + SecondNote + ThirdNote + FourthNote) / 4
+Centimeters = float(input("Enter a length value in centimeters: "))
 
-print(f""" 
-"The average of the four given notes is: {average}"
-""")
+Inches = Centimeters /2.54
 
+print(Inches)
