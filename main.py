@@ -1,13 +1,18 @@
-#Conversión de unidades de longitud
-#Escriba un programa que convierta de centímetros a pulgadas. Una pulgada es igual a 2.54 centímetros.
 
-#Ingrese longitud: 45
-#45 cm = 17.7165 in
-#Ingrese longitud: 13 
-#13 cm = 5.1181 in
+#Número invertido
+#Escriba un programa que pida al usuario un entero de tres dígitos, y entregue el número con los dígitos en orden inverso:
 
-Centimeters = float(input("Enter a length value in centimeters: "))
+#Ingrese numero: 345
+#543
+#Ingrese numero: 241 
+#142
 
-Inches = Centimeters /2.54
+numero = (input("Enter a three digit number: "))
 
-print(Inches)
+if len(numero) == 3 and numero.isdigit():
+
+    InvertedNumber = numero[::-1]
+    print(InvertedNumber)
+else:
+    print("Please enter a valid three digit number.")
+    
